@@ -8,11 +8,11 @@
   </tr>
   <tr>
     <th><%= f.label :start_date, "開始日" %></th>
-    <td><%= f.datetime_field :start_date %></td> 
+    <td><%= f.datetime_field.to_s(:datetime) :start_date %></td> 
   </tr>
   <tr>
     <th><%= f.label :end_date, "終了日" %></th>
-    <td><%= f.datetime_field :end_date %></td> 
+    <td><%= f.datetime_field.to_s(:datetime) :end_date %></td> 
   </tr>
   <tr>
     <th><%= f.label :all_day, "終日" %></th>
