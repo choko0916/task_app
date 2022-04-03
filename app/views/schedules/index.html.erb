@@ -22,7 +22,7 @@
         <td><%= schedule.id %></td>
         <td><%= schedule.title %></td>
         <td><%= schedule.start_date.to_s(:date_jp) %></td>
-        <td><%= schedule.end_date %></td>
+        <td><%= schedule.end_date.to_s(:date_jp) %></td>
         <td>
           <% if schedule.all_day %>
             <% puts "○" %>
