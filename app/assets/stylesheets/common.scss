@@ -25,6 +25,7 @@ table th, td {
   background-color: #f3b3e2;
   border: solid 1px #11497e;
   padding: 10px;
+  text-align: center;
 }
 
 h2 {
@@ -44,10 +45,26 @@ a {
 }
 
 .new_table {
-  width: 70%;
+  width: 600px;
 }
 
 ul {
   list-style: none;
   padding-left: 10px;
+}
+
+.new_table th {
+  width: 35%;
+}
+
+.text_area {
+  height: 200px;
+  width: 90%;
+  font-weight: bold;
+}
+
+.input_area {
+  width: 90%;
+  padding: 7px;
+  font-weight: bold;
 }
